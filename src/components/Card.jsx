@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Card = (user) => {
-  const { login, avatar_url, html_url, repos_url } = user
+  const { login, avatar_url, html_url, repos_url, user_view_type } = user
 
   return (
     <div className='card'>
@@ -9,11 +9,7 @@ const Card = (user) => {
       <div className='flex-between flex-1'>
         <div className='info'>
           <h3 style={{ textTransform: 'capitalize' }}>{login}</h3>
-          <h5>
-            <a target='_blank' rel='noreferrer' href={repos_url}>
-              Repository
-            </a>
-          </h5>
+          <h5  style={{ textTransform: 'capitalize' }}> {user_view_type} </h5>
         </div>
         <div className='more-info'>
           <a
