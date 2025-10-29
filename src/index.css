@@ -124,6 +124,7 @@ header {
   cursor: pointer;
   transition: background 0.2s ease;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 .page:hover,
 .page.active {
