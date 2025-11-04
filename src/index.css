@@ -89,7 +89,7 @@ header {
 /* App CSS
 -------------------*/
 .app-github-users {
-  min-height: calc(100vh - 109px);
+  /*min-height: calc(100vh - 109px);*/
   padding: 40px 0;
 }
 
